@@ -37,6 +37,7 @@
 ``` bash
 $ git clone https://github.com/ExinLocal/lucky-lottery
 # 00000000000000000010a34de0c20440b6804f61549e1c1b18d0b80afb589d6e is the hash of 624960 height blocks
+$ cd lucky-lottery
 $ python3 lucky-lottery.py \
   00000000000000000010a34de0c20440b6804f61549e1c1b18d0b80afb589d6e
 ```
