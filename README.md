@@ -19,9 +19,9 @@
 * ExinLocal will assign a lottery number, an integer starting from 1 to each qualified participant;
 * ExinLocal will announce a certain block number of Bitcoin in the future before the event, such as **624960**;
     - Use the hash of this block to calculate a luck number
-    - luck_num = hash1(hash2(...hash(n)(block.hash)))
+    - luck_num = hash1(hash2(...hash(n)(block.hash)))
 * For each lottery number, calculate the score;
-    - score ＝ hash (luck_num + lottery number) ％ base
+    - score ＝ hash (luck_num + lottery number) ％ base
 * Sort by score, the highest reward is 0.01 BTC.
 
 ## Features
