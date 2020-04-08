@@ -8,6 +8,7 @@
 
 - [Explanation](#explanation)
 - [Features](#features)
+- [Usage](#usage)
 - [Contributing](#contributing)
 - [Team](#team)
 - [FAQ](#faq)
@@ -28,6 +29,17 @@
 
 - Lucky Lottery based on Bitcoin blocks hash;
 - The algorithm is open source and the results can be verified.
+
+## Usage
+
+> Python 3.0+ required.
+
+``` bash
+$ git clone https://github.com/ExinLocal/lucky-lottery
+# 00000000000000000010a34de0c20440b6804f61549e1c1b18d0b80afb589d6e is the hash of 624960 height blocks
+$ python3 lucky-lottery.py \
+  00000000000000000010a34de0c20440b6804f61549e1c1b18d0b80afb589d6e
+```
 
 ## Contributing
 
