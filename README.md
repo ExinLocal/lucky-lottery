@@ -27,8 +27,8 @@
 
 ## Features
 
-- Lucky Lottery based on Bitcoin blocks hash;
-- The algorithm is open source and the results can be verified.
+* Lucky Lottery based on Bitcoin blocks hash.
+* The algorithm is open source and the results can be verified.
 
 ## Usage
 
